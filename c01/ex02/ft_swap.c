@@ -6,12 +6,11 @@
 /*   By: rhilmi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/17 22:28:31 by rhilmi            #+#    #+#             */
-/*   Updated: 2023/09/17 23:16:29 by rhilmi           ###   ########.fr       */
+/*   Updated: 2023/09/19 22:41:16 by rhilmi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include<unistd.h>
-#include<stdio.h>
 
 void	ft_swap(int	*a, int	*b)
 {
