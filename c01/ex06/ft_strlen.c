@@ -6,7 +6,7 @@
 /*   By: rhilmi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/19 14:41:32 by rhilmi            #+#    #+#             */
-/*   Updated: 2023/09/19 15:57:47 by rhilmi           ###   ########.fr       */
+/*   Updated: 2023/09/19 16:02:00 by rhilmi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	ft_strlen(char *str)
 	count = 0;
 	while (str[count] != '\0')
 	{
-	count++;
+		count++;
 	}
 	return (count);
 }
