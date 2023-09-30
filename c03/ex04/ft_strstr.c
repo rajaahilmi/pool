@@ -6,7 +6,7 @@
 /*   By: rhilmi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/30 17:56:08 by rhilmi            #+#    #+#             */
-/*   Updated: 2023/09/30 18:44:51 by rhilmi           ###   ########.fr       */
+/*   Updated: 2023/09/30 18:50:28 by rhilmi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 char	*ft_strstr(char *str, char *to_find)
 {
 	char	*haystack;
-	char	*needle
+	char	*needle;
 
 	if (to_find[0] == '\0')
 		return (str);
